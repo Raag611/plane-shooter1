@@ -18,18 +18,18 @@ function preload(){
   plane1_IMG =   loadAnimation("images/plane2.png");
   plane1_collided = loadAnimation("images/boom.png")
   
-  BG_IMG = loadImage("images/spaceBG.jpg");
+  BG_IMG = loadImage("spaceBG.jpg");
   
-  AmmoIMG = loadImage("images/ammo2.png")
+  AmmoIMG = loadImage("ammo2.png")
 
-  asteroid1 = loadImage("images/asteroid1.png");
-  asteroid2 = loadImage("images/asteroid2.png");
-  asteroid3 = loadImage("images/asteroid3.png");
+  asteroid1 = loadImage("asteroid1.png");
+  asteroid2 = loadImage("asteroid2.png");
+  asteroid3 = loadImage("asteroid3.png");
   asteroid4 = loadImage("images/asteroid4.png");
   
   
-  gameOverImg = loadImage("images/gameOver.png");
-  restartImg = loadImage("images/restart.png");
+  gameOverImg = loadImage("gameOver.png");
+  restartImg = loadImage("restart.png");
 }
 
 function setup() {
